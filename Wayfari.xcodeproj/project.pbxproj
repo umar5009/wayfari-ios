@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ADD118FF66F4F13BE3F0FD9 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F79A26E4254E90BDCCFD99 /* ExploreView.swift */; };
+		234567890123456789ABCDE2 /* FlightDeals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345678901234567890ABCDE3 /* FlightDeals.swift */; };
+		456789012345678901ABCDE4 /* FlightTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567890123456789012ABCDE5 /* FlightTrackerView.swift */; };
+		4664E07A78E147B0AA262C95 /* AIChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29981409A0404DB51C8A23 /* AIChatView.swift */; };
+		52C548A401EC401894142331 /* HotelsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2047DBF5895749FFAA4B48CF /* HotelsListView.swift */; };
+		678901234567890123ABCDE6 /* PriceAlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789012345678901234ABCDE7 /* PriceAlertsView.swift */; };
+		70B7D52387CA40CB996229F1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9732E8A4265547129084077D /* Models.swift */; };
+		749085D321A54DC0A12BDA3C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D25BC382747D4BBAB9B76 /* MapView.swift */; };
+		7F642624D00444A6B0D29E24 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8626481E8C484C97ACD23B /* Theme.swift */; };
+		8D4F6E652FEDBE3100896ACD /* AirlineCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123456789012345678ABCDE1 /* AirlineCatalog.swift */; };
+		8DA76FC830154D5B00B03BE1 /* TourRouteMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11TOUR04F00123456789012 /* TourRouteMapView.swift */; };
+		9E1F24E6410545B09D54D48C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB073D9CD28C4E60AA2BE3C1 /* RootView.swift */; };
+		9E4CA43ACEFA43D9B3B4A500 /* FlightsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72819303E27F4AF8B404463E /* FlightsListView.swift */; };
+		9EAC5F62CB384CB8A6D4860A /* RecentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46BBD6049A49E8A2A56B8E /* RecentsView.swift */; };
+		A11TOUR01B00123456789012 /* TourPlanModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11TOUR01F00123456789012 /* TourPlanModels.swift */; };
+		A11TOUR02B00123456789012 /* TourPlanGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11TOUR02F00123456789012 /* TourPlanGenerator.swift */; };
+		A11TOUR03B00123456789012 /* TourPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11TOUR03F00123456789012 /* TourPlanView.swift */; };
+		A11VOICE01B0012345678901 /* VoiceInputService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11VOICE01F0012345678901 /* VoiceInputService.swift */; };
+		A1B2C3D4E5F6478990ABCDEF /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2D3C4B5A6978899AABBCC /* LaunchScreenView.swift */; };
+		A5B6C7D8E901234567890123 /* HotelDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C7D8E9012345678901234 /* HotelDiscovery.swift */; };
+		B2C3D4E5F6A7890123456789 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4E5F6A7B8901234567890 /* LocationManager.swift */; };
+		B6C7D8E9012345678901234A /* FlightSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8E90123456789012345A /* FlightSearch.swift */; };
+		B8C901234567890123456789 /* NavigationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C901234567890123456789AB /* NavigationMapView.swift */; };
+		C7D8E90123456789012345AB /* FlightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E901234567890123456AB /* FlightsViewModel.swift */; };
+		D1E2F3A4B5C6789012345678 /* RouteGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F3A4B5C678901234567890 /* RouteGeometry.swift */; };
+		D4E5F6A7B8C9012345678901 /* SearchCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6A7B8C901234567890123 /* SearchCatalog.swift */; };
+		E1F6611AC7A8454FB4925806 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A880740CFF4F37943585A4 /* Preview Assets.xcassets */; };
+		E2C37F6649C34C1FBFFB2574 /* SightSeeingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6077678216B847F5B18D3775 /* SightSeeingListView.swift */; };
+		E394BAAD732043B780153D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899AA47138F3464BA9A55A8D /* Assets.xcassets */; };
+		E8F901234567890123456ABC /* AirlineIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F901234567890123456ABCD /* AirlineIconView.swift */; };
+		ED400F9A739A44868831782A /* WayfariApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3D67AA894E4FF0B1CC406A /* WayfariApp.swift */; };
+		F3A4B5C6D7E8901234567890 /* NavigationArrowIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B5C6D7E890123456789012 /* NavigationArrowIcon.swift */; };
+		F6A7B8C90123456789012345 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B8C9012345678901234567 /* ExploreViewModel.swift */; };
+		F901234567890123456ABCDE /* FlightDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012345678901234567ABCDEF /* FlightDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		012345678901234567ABCDEF /* FlightDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailView.swift; sourceTree = "<group>"; };
+		123456789012345678ABCDE1 /* AirlineCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineCatalog.swift; sourceTree = "<group>"; };
+		2047DBF5895749FFAA4B48CF /* HotelsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsListView.swift; sourceTree = "<group>"; };
+		345678901234567890ABCDE3 /* FlightDeals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDeals.swift; sourceTree = "<group>"; };
+		3C3D67AA894E4FF0B1CC406A /* WayfariApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayfariApp.swift; sourceTree = "<group>"; };
+		51A880740CFF4F37943585A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		567890123456789012ABCDE5 /* FlightTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrackerView.swift; sourceTree = "<group>"; };
+		6077678216B847F5B18D3775 /* SightSeeingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightSeeingListView.swift; sourceTree = "<group>"; };
+		719B005A10EE4706ABFD0AAE /* Wayfari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wayfari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72819303E27F4AF8B404463E /* FlightsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsListView.swift; sourceTree = "<group>"; };
+		789012345678901234ABCDE7 /* PriceAlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceAlertsView.swift; sourceTree = "<group>"; };
+		899AA47138F3464BA9A55A8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B29981409A0404DB51C8A23 /* AIChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatView.swift; sourceTree = "<group>"; };
+		8B65E30EEC224252AF05E70F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9732E8A4265547129084077D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A11TOUR01F00123456789012 /* TourPlanModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourPlanModels.swift; sourceTree = "<group>"; };
+		A11TOUR02F00123456789012 /* TourPlanGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourPlanGenerator.swift; sourceTree = "<group>"; };
+		A11TOUR03F00123456789012 /* TourPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourPlanView.swift; sourceTree = "<group>"; };
+		A11TOUR04F00123456789012 /* TourRouteMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourRouteMapView.swift; sourceTree = "<group>"; };
+		A11VOICE01F0012345678901 /* VoiceInputService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceInputService.swift; sourceTree = "<group>"; };
+		A4B5C6D7E890123456789012 /* NavigationArrowIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationArrowIcon.swift; sourceTree = "<group>"; };
+		A7B8C9012345678901234567 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		B3F79A26E4254E90BDCCFD99 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		B6C7D8E9012345678901234 /* HotelDiscovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDiscovery.swift; sourceTree = "<group>"; };
+		BB073D9CD28C4E60AA2BE3C1 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		BE46BBD6049A49E8A2A56B8E /* RecentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsView.swift; sourceTree = "<group>"; };
+		C3D4E5F6A7B8901234567890 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C7D8E90123456789012345A /* FlightSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearch.swift; sourceTree = "<group>"; };
+		C901234567890123456789AB /* NavigationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMapView.swift; sourceTree = "<group>"; };
+		CC8626481E8C484C97ACD23B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		D8E901234567890123456AB /* FlightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsViewModel.swift; sourceTree = "<group>"; };
+		E2F3A4B5C678901234567890 /* RouteGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteGeometry.swift; sourceTree = "<group>"; };
+		E5F6A7B8C901234567890123 /* SearchCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCatalog.swift; sourceTree = "<group>"; };
+		EA3D25BC382747D4BBAB9B76 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F1E2D3C4B5A6978899AABBCC /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		F901234567890123456ABCD /* AirlineIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineIconView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ADB16B260774BB7A6A52647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047F6A2157BC49F2969632A8 /* Wayfari */ = {
+			isa = PBXGroup;
+			children = (
+				3C3D67AA894E4FF0B1CC406A /* WayfariApp.swift */,
+				F1E2D3C4B5A6978899AABBCC /* LaunchScreenView.swift */,
+				A7B8C9012345678901234567 /* ExploreViewModel.swift */,
+				C3D4E5F6A7B8901234567890 /* LocationManager.swift */,
+				E5F6A7B8C901234567890123 /* SearchCatalog.swift */,
+				C901234567890123456789AB /* NavigationMapView.swift */,
+				E2F3A4B5C678901234567890 /* RouteGeometry.swift */,
+				A4B5C6D7E890123456789012 /* NavigationArrowIcon.swift */,
+				B6C7D8E9012345678901234 /* HotelDiscovery.swift */,
+				C7D8E90123456789012345A /* FlightSearch.swift */,
+				D8E901234567890123456AB /* FlightsViewModel.swift */,
+				F901234567890123456ABCD /* AirlineIconView.swift */,
+				012345678901234567ABCDEF /* FlightDetailView.swift */,
+				123456789012345678ABCDE1 /* AirlineCatalog.swift */,
+				345678901234567890ABCDE3 /* FlightDeals.swift */,
+				567890123456789012ABCDE5 /* FlightTrackerView.swift */,
+				789012345678901234ABCDE7 /* PriceAlertsView.swift */,
+				BB073D9CD28C4E60AA2BE3C1 /* RootView.swift */,
+				B3F79A26E4254E90BDCCFD99 /* ExploreView.swift */,
+				EA3D25BC382747D4BBAB9B76 /* MapView.swift */,
+				72819303E27F4AF8B404463E /* FlightsListView.swift */,
+				2047DBF5895749FFAA4B48CF /* HotelsListView.swift */,
+				6077678216B847F5B18D3775 /* SightSeeingListView.swift */,
+				BE46BBD6049A49E8A2A56B8E /* RecentsView.swift */,
+				8B29981409A0404DB51C8A23 /* AIChatView.swift */,
+				A11VOICE01F0012345678901 /* VoiceInputService.swift */,
+				A11TOUR01F00123456789012 /* TourPlanModels.swift */,
+				A11TOUR02F00123456789012 /* TourPlanGenerator.swift */,
+				A11TOUR03F00123456789012 /* TourPlanView.swift */,
+				A11TOUR04F00123456789012 /* TourRouteMapView.swift */,
+				9732E8A4265547129084077D /* Models.swift */,
+				CC8626481E8C484C97ACD23B /* Theme.swift */,
+				899AA47138F3464BA9A55A8D /* Assets.xcassets */,
+				8B65E30EEC224252AF05E70F /* Info.plist */,
+				FC3A7C2B1C664D9B8F24871A /* Preview Content */,
+			);
+			path = Wayfari;
+			sourceTree = "<group>";
+		};
+		6663B32BE8004D0783DE68C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				719B005A10EE4706ABFD0AAE /* Wayfari.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9108E68A85443EEA0B43A11 = {
+			isa = PBXGroup;
+			children = (
+				047F6A2157BC49F2969632A8 /* Wayfari */,
+				6663B32BE8004D0783DE68C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC3A7C2B1C664D9B8F24871A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				51A880740CFF4F37943585A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61C296187D7546508CC22100 /* Wayfari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11319174A8724DB4855DF851 /* Build configuration list for PBXNativeTarget "Wayfari" */;
+			buildPhases = (
+				2DAB6F4552284BFD8431F77E /* Sources */,
+				3ADB16B260774BB7A6A52647 /* Frameworks */,
+				2C789C163DFF42218E29AF9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wayfari;
+			productName = Wayfari;
+			productReference = 719B005A10EE4706ABFD0AAE /* Wayfari.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17D29AB4C2AE41DFA599B261 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					61C296187D7546508CC22100 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 7E74FB5E48FF4BC2A8A52E31 /* Build configuration list for PBXProject "Wayfari" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9108E68A85443EEA0B43A11;
+			productRefGroup = 6663B32BE8004D0783DE68C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61C296187D7546508CC22100 /* Wayfari */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C789C163DFF42218E29AF9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F6611AC7A8454FB4925806 /* Preview Assets.xcassets in Resources */,
+				E394BAAD732043B780153D22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DAB6F4552284BFD8431F77E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED400F9A739A44868831782A /* WayfariApp.swift in Sources */,
+				9E1F24E6410545B09D54D48C /* RootView.swift in Sources */,
+				1ADD118FF66F4F13BE3F0FD9 /* ExploreView.swift in Sources */,
+				8DA76FC830154D5B00B03BE1 /* TourRouteMapView.swift in Sources */,
+				749085D321A54DC0A12BDA3C /* MapView.swift in Sources */,
+				9E4CA43ACEFA43D9B3B4A500 /* FlightsListView.swift in Sources */,
+				52C548A401EC401894142331 /* HotelsListView.swift in Sources */,
+				E2C37F6649C34C1FBFFB2574 /* SightSeeingListView.swift in Sources */,
+				9EAC5F62CB384CB8A6D4860A /* RecentsView.swift in Sources */,
+				4664E07A78E147B0AA262C95 /* AIChatView.swift in Sources */,
+				A11VOICE01B0012345678901 /* VoiceInputService.swift in Sources */,
+				A11TOUR01B00123456789012 /* TourPlanModels.swift in Sources */,
+				A11TOUR02B00123456789012 /* TourPlanGenerator.swift in Sources */,
+				A11TOUR03B00123456789012 /* TourPlanView.swift in Sources */,
+				70B7D52387CA40CB996229F1 /* Models.swift in Sources */,
+				7F642624D00444A6B0D29E24 /* Theme.swift in Sources */,
+				A1B2C3D4E5F6478990ABCDEF /* LaunchScreenView.swift in Sources */,
+				F6A7B8C90123456789012345 /* ExploreViewModel.swift in Sources */,
+				B2C3D4E5F6A7890123456789 /* LocationManager.swift in Sources */,
+				D4E5F6A7B8C9012345678901 /* SearchCatalog.swift in Sources */,
+				B8C901234567890123456789 /* NavigationMapView.swift in Sources */,
+				D1E2F3A4B5C6789012345678 /* RouteGeometry.swift in Sources */,
+				F3A4B5C6D7E8901234567890 /* NavigationArrowIcon.swift in Sources */,
+				A5B6C7D8E901234567890123 /* HotelDiscovery.swift in Sources */,
+				B6C7D8E9012345678901234A /* FlightSearch.swift in Sources */,
+				C7D8E90123456789012345AB /* FlightsViewModel.swift in Sources */,
+				E8F901234567890123456ABC /* AirlineIconView.swift in Sources */,
+				8D4F6E652FEDBE3100896ACD /* AirlineCatalog.swift in Sources */,
+				F901234567890123456ABCDE /* FlightDetailView.swift in Sources */,
+				234567890123456789ABCDE2 /* FlightDeals.swift in Sources */,
+				456789012345678901ABCDE4 /* FlightTrackerView.swift in Sources */,
+				678901234567890123ABCDE6 /* PriceAlertsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		581F08D0088F46C688BA6432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73FA42BDEEF248928BE73F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E363BABBD00477F89E3F420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BY97QGCX78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Wayfari/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wayfari.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCE9DBCEB0444FAAB6C5F515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BY97QGCX78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Wayfari/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wayfari.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11319174A8724DB4855DF851 /* Build configuration list for PBXNativeTarget "Wayfari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E363BABBD00477F89E3F420 /* Debug */,
+				DCE9DBCEB0444FAAB6C5F515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E74FB5E48FF4BC2A8A52E31 /* Build configuration list for PBXProject "Wayfari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581F08D0088F46C688BA6432 /* Debug */,
+				73FA42BDEEF248928BE73F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17D29AB4C2AE41DFA599B261 /* Project object */;
+}
